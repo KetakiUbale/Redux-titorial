@@ -27,10 +27,10 @@
 .App-link {
   color: #61dafb;
 }
-
+/*   */
 .btn-wrapper button{
-  background-color: red;
-  border: 0px;
+  background-color: rgb(204, 98, 98);
+  border: 8px;
   padding: 10px;
   border-radius: 4px;
   color: rgb(224, 55, 55);
@@ -66,6 +66,7 @@
   border-color: darkblue;
   border-width: 1px;
 }
+/*  */
 
 
 
