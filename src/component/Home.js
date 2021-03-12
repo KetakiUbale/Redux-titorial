@@ -1,7 +1,9 @@
 import React from 'react';
 import images from '../Image/images.png';
-function Home()
+import 'bootstrap/dist/css/bootstrap.css';
+function Home(props)
 {
+    console.warn('Home',props)
     return(
         <div>
         <div className="add-to-cart img">
@@ -23,7 +25,13 @@ function Home()
                 </span>
         </div>
         <div className="btn wrapper item">
-        <button> Add to Cart</button></div>
+        <button onClick={()=>
+        props.addToCartHandler({price:1000,name:"iphone"})
+        } type="button" className="btn btn-warning"
+    
+        
+        >Add To Cart</button>
+        </div>
         </div>
         </div>
     

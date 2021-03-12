@@ -30,7 +30,7 @@
 /*   */
 .btn-wrapper button{
   background-color: rgb(204, 98, 98);
-  border: 8px;
+  border: 0px;
   padding: 10px;
   border-radius: 4px;
   color: rgb(224, 55, 55);
@@ -51,8 +51,9 @@
   float:left;
   display:inline-block;
   height:70px;
-  padding: 20px;
+  padding:20px;
   width: 120px;
+  border:darkmagenta ;
 
 }
 
@@ -63,8 +64,8 @@
   top: 1%;
 }
 .cart-wrapper{
-  border-color: darkblue;
-  border-width: 1px;
+  border-color: rgb(223, 16, 68);
+  border-width: 3px;
 }
 /*  */
 
